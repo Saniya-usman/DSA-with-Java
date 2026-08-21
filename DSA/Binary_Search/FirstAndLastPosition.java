@@ -11,7 +11,6 @@ public class FirstAndLastPosition {
         ans[1] = end;
 
         return ans;
-        
     }
     static int search(int[] nums, int target, boolean findStartIndex){
         int ans =-1;
