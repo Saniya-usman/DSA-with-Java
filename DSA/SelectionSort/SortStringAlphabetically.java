@@ -18,7 +18,7 @@ public class SortStringAlphabetically {
         }
     }
     public static void main(String[] args) {
-        String[] arr = {"Manngo", "Apple", "Banana", "Sanu"} ;
+        String[] arr = {"Manngo", "Apple", "Banana", "Sanu"};
         SSIAO(arr);
         System.out.println(Arrays.toString(arr));
     }

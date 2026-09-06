@@ -21,7 +21,6 @@ static void swap(int[] arr, int first, int second){
     arr[first] = arr[second];
     arr[second] = temp;
 }
-
 public static void main(String[] args) {
     int[] arr = {3,5, 4, 1, 2};
     insertion(arr);
