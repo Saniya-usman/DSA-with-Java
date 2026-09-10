@@ -7,6 +7,6 @@ public class SB {
         }
         System.out.println(builder.toString());
         builder.reverse();
-        System.out.println(builder);
+        System.out.println(builder );
     }
 }
