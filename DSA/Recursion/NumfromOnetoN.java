@@ -1,13 +1,13 @@
-public class NumfromNtoOne {
-    static void NtoOne(int n){
-
+public class NumfromOnetoN {
+    static void OnetoN(int n){
         if(n == 0){
             return ;
         }
+        OnetoN( n -1);
         System.out.println(n);
-         NtoOne( n - 1);
+        
     }
     public static void main(String[] args) {
-        NtoOne(5);
+        OnetoN(5);
     }
 }
