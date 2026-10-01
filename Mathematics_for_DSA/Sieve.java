@@ -16,7 +16,7 @@ public class Sieve {
         }
     }
     public static void main(String[] args) {
-        int n = 40;
+        int n = 36;
         boolean[] primes = new boolean[n+1];
         System.out.println(primes[0]);
         sieve(n, primes);
